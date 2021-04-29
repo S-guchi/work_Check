@@ -1,4 +1,4 @@
-const ssIdObj = SpreadsheetApp.openById("1CSDiSa96wPe4_mEOqjyyXv2JI3MTGQOOh28xVffS_vI");
+const ssIdObj = SpreadsheetApp.openById("スプレッドシートのId");
 const chkSsObj = ssIdObj.getSheetByName("作業チェックシート");
 const tejunSsObj = ssIdObj.getSheetByName("作業手順書");
 const historySsObj = ssIdObj.getSheetByName("作業履歴");
